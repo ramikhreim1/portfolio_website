@@ -27,12 +27,21 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'Fitness Exercises App',
+    description: "This is a code repository i used APIs from RapidAPIs ,create the best and most modern Fitness Exercises App using two separate APIs. ExerciseDB and Youtube Search and Download APIs, host the website on AWS Amplify or netlify.com  .",
+      image: '/images/3.png',
+      tags: ['React', 'RapidAPI','AWS Amplify'],
+    source: 'https://jowry.click',
+    visit: 'https://github.com/ramikhreim1',
+    id: 2,
+  },
+  {
     title: 'Unichat',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://jowry.click',
+    visit: 'https://github.com/ramikhreim1/project_fitness',
     id: 3,
   },
 ];
