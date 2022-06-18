@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact } from 'react-icons/di';
+import { FaAws } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,8 +9,8 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the web DevOps world.
+      From Back-end To Design To CI/CD Pipelines, IaC ,AWS.
     </SectionText>
     <List>
       <ListItem>
@@ -21,6 +22,30 @@ const Technologies = () =>  (
           <ListParagraph>
             Experiece with <br />
             React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Network Administrator</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            Cisco Certified, VPN Security
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaAws size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>AWS Certified Solutions Architect</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            AWS Services
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,13 +63,25 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <FaAws size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>AWS DevOps Engineer Professional</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            CloudFormations, CI/CD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaAws size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Microsoft System Engineer</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Windows Administrator, Automation
           </ListParagraph>
         </ListContainer>
       </ListItem>
