@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
         The purpose to help aspiring and established DevOps Professional Engineers to build the best practice solutions on the Cloud to take their development skills to the next level and build awesome apps on the cloud.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={props.handleClick}>Rami Khreim</Button>
       </LeftSection>
     </Section>
   </>

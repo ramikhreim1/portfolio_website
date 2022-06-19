@@ -18,8 +18,8 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: '2WebRTC App',
+    description: "1This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
       image: '/images/3.jpg',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
@@ -44,6 +44,7 @@ export const projects = [
     visit: 'https://github.com/ramikhreim1/project_fitness',
     id: 3,
   },
+
 ];
 
 export const TimeLineData = [
