@@ -37,6 +37,15 @@ export const projects = [
     visit: 'https://github.com/ramikhreim1/aws-ghost-deployment',
     id: 3,
   },
+  {
+    title: 'MEANie - MEAN Stack CMS & Blogging Platform on AWs CloudFormation',
+    description: "AWS CloudFormation Template for Setup Node.js + MongoDB Production Server on Ubuntu 18.04 Ubuntu 19.04 on EC2 Instance, (Optional) Have Installed MEANie CMS and Blog and NGNIX .",
+    image: '/images/5.png',
+    tags: ['MongoDB', 'Express', 'Angular and Node','Cloudformation'],
+    source: 'http://blog.jowry.click/',
+    visit: 'https://github.com/ramikhreim1/MEANie-CMS-and-Blog-on-AWS.git',
+    id: 3,
+  },
 
 ];
 
