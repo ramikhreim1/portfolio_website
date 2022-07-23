@@ -30,10 +30,10 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Network Administrator</ListTitle>
+          <ListTitle>System and Network Administrator</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            Cisco Certified, VPN Security
+            Cisco Certified, VPN, Security, Linux
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -81,7 +81,7 @@ const Technologies = () =>  (
           <ListTitle>Microsoft System Engineer</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Windows Administrator, Automation
+            Windows Administrator, PowerShell
           </ListParagraph>
         </ListContainer>
       </ListItem>

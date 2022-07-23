@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      With 20 years of experience in the IT/Telecom industry, with experience applying hardware and software design, installation, administration, and configuration to support growing businesses. I have acquired a tremendous amount of hands on and technical project management knowledge. My current objective is to apply my technical knowledge and project management skills to help lead a competitive growing company to a new level of success..
+      With over 20+ years of experience in implementing and operating a diverse range of systems and infrastructures both on-premise and on the cloud, with experience applying hardware and software design, and IP networks, installation, administration, and configuration to support growing businesses. Excited about combining various technologies and tools to automate operations as well as to build meaningful and reliable customer solutions...
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

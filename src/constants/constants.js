@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: 'PHP, HTML - Node.js, Magento modules, eCommerce website',
+    description: "Designing themes and interfaces,Troubleshooting integration issues, JavaScript, HTML, PHP, CSS, and MySQL.Google Tag Manager, SEO, Google Analytics, PPC, and A/B Testing.",
+    image: '/images/6.jpg',
+    tags: ['javascript', 'PHP','AWS RDS'],
+    source: 'https://www.ikparis.com/en/',
+    visit: 'https://github.com/ramikhreim1/MEANie-CMS-and-Blog-on-AWS.git',
+    id: 4,
+  },
+  {
+    title: 'PHP, Node.js, AWS, REST API                            ',
+    description: "No code messaging automation that enables you to create real-time life-cycles and campaign journeys for your users in more than ten channels and with features perfectly tailored for timing and effect.",
+    image: '/images/7.png',
+    tags: ['javascript', 'SQS','AWS Aurora','Lambda'],
+    source: 'https://www.symplify.com',
+    visit: 'https://apidocs.symplify.com/',
+    id: 5,
+  },
+  {
     title: 'Install MEAN Stack App on EC2 Using CloudFormation',
     description: "Using React, Node.js, Express & MongoDB , Cloudformation template to build a Full Stack MERN Application - from start to finish. The App is NodeJS + MongoDB - Simple API for Authentication, Registration and User Management .",
       image: '/images/1.png',
@@ -44,7 +62,7 @@ export const projects = [
     tags: ['MongoDB', 'Express', 'Angular and Node','Cloudformation'],
     source: 'http://blog.jowry.click/',
     visit: 'https://github.com/ramikhreim1/MEANie-CMS-and-Blog-on-AWS.git',
-    id: 3,
+    id: 4,
   },
 
 ];
