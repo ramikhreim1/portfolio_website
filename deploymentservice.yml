@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-deployment
+  labels:
+    app: react-image
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react-image
+  template:
+    metadata:
+      labels:
+        app: react-image
+    spec:
+      containers:
+      - name: reacteserver
+        image: ramikhreim/react-image
+        ports:
+        - containerPort: 3000
+
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: react-service
+spec:
+  selector:
+    app: react-image
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 5000
+    targetPort: 3000
+    nodePort: 31110
