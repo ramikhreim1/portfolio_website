@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "thetips4you/nodeapp"
+    dockerimagename = "ramikhreim/react-image"
     dockerImage = ""
   }
 
@@ -10,6 +10,7 @@ pipeline {
   stages {
 
     stage('Checkout Source') {
+
       steps {
         git 'https://github.com/ramikhreim1/portfolio_website.git'
       }
